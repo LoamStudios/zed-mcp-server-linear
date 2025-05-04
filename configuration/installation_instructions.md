@@ -1,0 +1,1 @@
+To use Linear's MCP, go to your [account's security section](https://linear.app//settings/account/security) and create an access token.
