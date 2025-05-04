@@ -1,4 +1,4 @@
 {
-  /// Your Linear API key
-  "linear_api_key": "YOUR_LINEAR_API_KEY"
+  /// Your Linear access token
+  "linear_api_key": "YOUR_LINEAR_ACCESS_TOKEN"
 }
