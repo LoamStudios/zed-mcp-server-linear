@@ -10,7 +10,7 @@ Several were analyzed and this one worked the best in practice.
 
 You'll need to grab a Linear access token for your account.
 
-https://linear.app/<your-org>/settings/account/security
+Visit: https://linear.app/`<your-org>`/settings/account/security
 
 ```json
 "context_servers": {
