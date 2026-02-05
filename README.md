@@ -30,13 +30,9 @@ Use the following config instead.
 ```json
 "context_servers": {
   "mcp-server-linear": { // name can be whatever you want
-    "command": {
-      "path": "npx",
-      "args": [
-        "-y",
-        "mcp-remote",
-        "https://mcp.linear.app/sse"
-      ]
+    "url": "https://mcp.linear.app/mcp",
+    "headers": { // optional, if you don't want to use the OAuth flow
+      "Authorization": "Bearer <your linear token>"
     }
   }
 }
