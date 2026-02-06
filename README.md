@@ -29,15 +29,13 @@ Use the following config instead.
 
 ```json
 "context_servers": {
-  "mcp-server-linear": { // name can be whatever you want
-    "command": {
-      "path": "npx",
-      "args": [
-        "-y",
-        "mcp-remote",
-        "https://mcp.linear.app/sse"
-      ]
-    }
+  "linear-official-mcp-server": {
+    /// The command which runs the MCP server
+    "command": "npx",
+    /// The arguments to pass to the MCP server
+    "args": ["-y","mcp-remote","https://mcp.linear.app/sse"],
+    /// The environment variables to set
+    "env": {}
   }
 }
 ```
